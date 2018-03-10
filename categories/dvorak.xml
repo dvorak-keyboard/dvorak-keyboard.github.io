@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Living with Dvorak Layout (Posts about Dvorak)</title><link>https://SuJiKiNen.github.io/</link><description></description><atom:link href="https://SuJiKiNen.github.io/categories/dvorak.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:sujikinen@gmail.com"&gt;SuJiKiNen&lt;/a&gt; </copyright><lastBuildDate>Sat, 10 Mar 2018 06:39:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Dvorak Layout Keyborad Settings For More Easily Using Emacs,Dual Role Key For Ctrl And Alt</title><link>https://SuJiKiNen.github.io/posts/my-dvorak-layout-keyborad-settings-for-more-easily-using-emacsdual-role-key-for-ctrl-and-alt/</link><dc:creator>SuJiKiNen</dc:creator><description>&lt;p&gt;
+I will no tell the long stroy,just my settings for keyboard,may not suitable for
+evereyone, but hope someone will like it and enjoy it.
+&lt;/p&gt;
+
+&lt;p&gt;
+Most frequently used modifed keys in Emacs are &lt;code&gt;C&lt;/code&gt; and &lt;code&gt;M&lt;/code&gt; (&lt;code&gt;C&lt;/code&gt; is Ctrl, &lt;code&gt;M&lt;/code&gt; is
+Alt),to avoiding pinky hurt,we need to remapping &lt;code&gt;C&lt;/code&gt; and &lt;code&gt;M&lt;/code&gt; to somewhere
+else.First you may need to learn about what is &lt;a href="https://en.wikipedia.org/wiki/Modifier_key#Dual-role_keys"&gt;Dual Role Key&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+We know that HHKB use Capslock as Ctrl,so we follow it,symmetrically,we use
+Enter as a Ctrl too,so the Enter is a dual role key,when hold it,acting as
+Ctrl,when tap,acting as Enter, knowing that we lost abillty that when hold Enter
+key,we can't not send contious Enter keys, now come with Alt key,you may got the
+ideas? aren't you? make Tab as a dual role,When hold it, acting as Alt,tap as
+Tab key. so backslash key has the same function.
+&lt;/p&gt;
+
+&lt;p&gt;
+so come the biggest problem,what is the best way the make these settings working
+on my keyborad,software or hardware,I suggest that buy a harware programmble
+keyboard,try search gh60 on Google,and and you will find some other keyboard
+like this,which is eaisly do the trick above.
+&lt;/p&gt;
+
+&lt;p&gt;
+I keep the origin Ctrl and Alt there,for compaitble reason,other people can use
+my keyborad as normal,and do whatever you like to set these key to other keys.
+&lt;/p&gt;
+
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;key&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;hold&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;tap&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Caps Lock&lt;/td&gt;
+&lt;td class="org-left"&gt;Ctrl&lt;/td&gt;
+&lt;td class="org-left"&gt;None&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Enter&lt;/td&gt;
+&lt;td class="org-left"&gt;Ctrl&lt;/td&gt;
+&lt;td class="org-left"&gt;Enter&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Tab&lt;/td&gt;
+&lt;td class="org-left"&gt;Alt&lt;/td&gt;
+&lt;td class="org-left"&gt;Tab&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Backslash&lt;/td&gt;
+&lt;td class="org-left"&gt;Alt&lt;/td&gt;
+&lt;td class="org-left"&gt;BackSlash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;
+I also put a trick on shift,try read something about space cadet shift,i first
+use it for my keyborad,but easliy getting woring inputing in vim and emacs,then
+I make it act as like,when tap it,act as a lead key,hold for Shift,after tap
+it,when you tap r,you will get &lt;code&gt;(&lt;/code&gt;,tap &lt;code&gt;u&lt;/code&gt;,you will get &lt;code&gt;)&lt;/code&gt;,the &lt;code&gt;r&lt;/code&gt;, &lt;code&gt;u&lt;/code&gt; are on
+QWERTY layout position,and I put &lt;code&gt;{&lt;/code&gt; in &lt;code&gt;f&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt; in &lt;code&gt;j&lt;/code&gt;, &lt;code&gt;[&lt;/code&gt; in &lt;code&gt;v&lt;/code&gt;, &lt;code&gt;]&lt;/code&gt; in
+&lt;code&gt;m&lt;/code&gt;,you can try your one's,if you have the keyborad I metioned,see table below
+for more clear understading.
+&lt;/p&gt;
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-left"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;key&lt;/th&gt;
+&lt;th scope="col" class="org-left"&gt;map&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;r&lt;/td&gt;
+&lt;td class="org-left"&gt;(&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;u&lt;/td&gt;
+&lt;td class="org-left"&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;f&lt;/td&gt;
+&lt;td class="org-left"&gt;{&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;h&lt;/td&gt;
+&lt;td class="org-left"&gt;}&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;v&lt;/td&gt;
+&lt;td class="org-left"&gt;[&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;m&lt;/td&gt;
+&lt;td class="org-left"&gt;]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;
+there is a &lt;a href="https://geekhack.org/index.php?topic=51069.0"&gt;spacefn&lt;/a&gt; layout out there,similar to &lt;a href="http://spacemacs.org/"&gt;Spacemacs&lt;/a&gt;,use space as a lead
+key,you can combine this,make your typing life better,actullay these setting
+have no much association about Dvorak layout,but I suggest use it,there is a lot
+good reason people said,I found it very suitable for Emacs.
+&lt;/p&gt;</description><category>Dvorak</category><category>Emacs</category><category>Keyborad</category><guid>https://SuJiKiNen.github.io/posts/my-dvorak-layout-keyborad-settings-for-more-easily-using-emacsdual-role-key-for-ctrl-and-alt/</guid><pubDate>Fri, 19 Jan 2018 16:22:47 GMT</pubDate></item></channel></rss>
