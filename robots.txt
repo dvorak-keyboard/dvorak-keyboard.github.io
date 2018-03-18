@@ -1,4 +1,4 @@
-Sitemap: https://SuJiKiNen.github.io/sitemapindex.xml
+Sitemap: https://dvorak-keyboard.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: SuJiKiNen.github.io
+Host: dvorak-keyboard.github.io
